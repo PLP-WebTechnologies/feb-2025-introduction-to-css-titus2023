@@ -1,0 +1,42 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif; /* Different font */
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+/* Styling h1 (Selector 1: Element Selector) */
+h1 {
+    color: #007BFF;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+/* Styling paragraph using a class (Selector 2: Class Selector) */
+.intro {
+    font-size: 1.2em;
+    color: #555;
+    margin: 10px auto;
+    width: 60%;
+}
+
+/* Styling the div using an ID (Selector 3: ID Selector) */
+#box {
+    background-color: white;
+    padding: 15px;
+    border: 2px solid #007BFF;
+    border-radius: 5px;
+    width: 50%;
+    margin: 20px auto;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling the image */
+.styled-image {
+    width: 300px;
+    border: 3px solid #333;
+    padding: 5px;
+    margin: 20px auto;
+    display: block;
+}
